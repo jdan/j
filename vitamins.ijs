@@ -23,7 +23,7 @@ simulate =: 3 : 0
 	NB. a { b takes the ath element of b
 	NB. b {~ a takes the ath element of b
 	NB. 
-	NB. {~ # ? # creates the hook (# ls) ? (# ls) { ls
+	NB. {~ # ? # creates the hook ((# ls) ? (# ls)) { ls
 	shuffle =. {~ # ? #
 
 	NB. Take y/2 0s and y/2 1s, and shuffle them
